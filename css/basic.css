@@ -15,6 +15,18 @@
     --spacing-200: 1.5rem;
 }
 
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/Figtree-SemiBold.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+}
+
 html {
     font-size: 16px;
     box-sizing: border-box;
@@ -31,5 +43,7 @@ p {
 }
 
 body {
+    font-family: var(--font-family);
+    font-weight: 500;
     margin: 0;
 }
