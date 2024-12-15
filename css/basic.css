@@ -42,11 +42,15 @@ p {
     margin: 0;
 }
 
+img {
+    display: block;
+    height: auto;
+}
+
 body {
     margin: 0;
     font-family: var(--font-family);
     font-weight: 500;
     color: var(--gray-950);
     background-color: var(--yellow);
-    
 }
