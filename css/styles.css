@@ -42,6 +42,12 @@
     font-size: var(--font-size-1);
     font-weight: 800px;
     line-height: 2.25rem;
+    transition: color 250ms linear;
+}
+
+.card_title:hover {
+    color: var(--yellow);
+    cursor: pointer;
 }
 
 .card_description {
