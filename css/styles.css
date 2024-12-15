@@ -5,18 +5,73 @@
     flex-direction: column;
     gap: var(--spacing-200);
     width: 327px;
-    height: 501px;
     border: 1px solid var(--gray-950);
     border-radius: 20px;
     box-shadow: 8px 8px 0px 0px #000;
     padding: var(--spacing-200);
     margin: auto;
+    margin-top: 156px;
     background-color: var(--white);
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
+}
+
+.card_img {
+    border-radius: 10px;
+}
+
+.card_tag {
+    width: 73px;
+    padding: var(--spacing-50) var(--spacing-150);
+    border-radius: 4px;
+    font-size: var(--font-size-3);
+    font-weight: 800;
+    text-align: center;
+    background-color: var(--yellow);
+}
+
+.card_date {
+    font-size: var(--font-size-3);
+}
+
+.card_title {
+    font-size: var(--font-size-1);
+    font-weight: 800px;
+    line-height: 2.25rem;
+}
+
+.card_description {
+    font-size: var(--font-size-2);
+    line-height: 1.5rem;
+    color: var(--gray-500);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150);
+}
+
+.author_img {
+    width: 32px;
+    height: 32px;
+}
+
+.author_name {
+    font-size: var(--font-size-3);
+    font-weight: 800;
 }
 
 @media screen and (min-width: 1440px) {
     .card {
         width: 384px;
-        height: 522px;
+    }
+
+    .card_tag {
+        width: 82px;
     }
 }
