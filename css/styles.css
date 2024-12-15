@@ -45,7 +45,8 @@
     transition: color 250ms linear;
 }
 
-.card_title:hover {
+.card_title:hover,
+.card_title:focus {
     color: var(--yellow);
     cursor: pointer;
 }
