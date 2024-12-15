@@ -43,7 +43,10 @@ p {
 }
 
 body {
+    margin: 0;
     font-family: var(--font-family);
     font-weight: 500;
-    margin: 0;
+    color: var(--gray-950);
+    background-color: var(--yellow);
+    
 }
